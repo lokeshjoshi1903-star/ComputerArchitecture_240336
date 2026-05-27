@@ -4,7 +4,7 @@
 **Program:** Bachelor of Computer Engineering
 **Semester:** 4th Semester
 **College:** Cosmos College of Management and Technology
-**Department:** Department of Information and Communication Technology
+**Department:** Department of Information and Communication Technology.
 
 ---
 
