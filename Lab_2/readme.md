@@ -100,6 +100,8 @@ The waveform was loaded in GTKWave. All input and output signals were appended a
 
 ![GTKWave Simulation Output](image.png)
 
+---
+
 **Discussion:** In this laboratory experiment, VHDL code was successfully written and implemented for the basic logic gates: AND, OR, NOT, NAND, NOR, XOR, and XNOR. Each gate was described using VHDL syntax and then simulated using a VHDL simulator along with GTKWave for waveform visualization. The simulation results matched the expected truth tables of the respective logic gates.
 
 The AND gate produced a HIGH output only when all inputs were HIGH, while the OR gate generated a HIGH output when at least one input was HIGH. The NOT gate correctly inverted the input signal. Similarly, NAND and NOR gates produced outputs opposite to those of AND and OR gates respectively. The XOR gate generated a HIGH output when the inputs were different, whereas the XNOR gate generated a HIGH output when the inputs were the same.
