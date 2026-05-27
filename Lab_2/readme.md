@@ -2,7 +2,7 @@
 
 **Course:** Computer Architecture (CMP 262)
 **Program:** Bachelor of Computer Engineering
-**Semester:** Fourth Semester
+**Semester:** 4th Semester
 **College:** Cosmos College of Management and Technology
 **Department:** Department of Information and Communication Technology
 
@@ -100,10 +100,14 @@ The waveform was loaded in GTKWave. All input and output signals were appended a
 
 ![GTKWave Simulation Output](image.png)
 
-**Observation:** All seven gate outputs matched the expected truth table exactly across all four input combinations, confirming the correctness of each VHDL design.
+**Discussion:** In this laboratory experiment, VHDL code was successfully written and implemented for the basic logic gates: AND, OR, NOT, NAND, NOR, XOR, and XNOR. Each gate was described using VHDL syntax and then simulated using a VHDL simulator along with GTKWave for waveform visualization. The simulation results matched the expected truth tables of the respective logic gates.
+
+The AND gate produced a HIGH output only when all inputs were HIGH, while the OR gate generated a HIGH output when at least one input was HIGH. The NOT gate correctly inverted the input signal. Similarly, NAND and NOR gates produced outputs opposite to those of AND and OR gates respectively. The XOR gate generated a HIGH output when the inputs were different, whereas the XNOR gate generated a HIGH output when the inputs were the same.
+
+GTKWave helped in analyzing the timing diagrams and observing the changes in input and output signals clearly. By comparing the simulated outputs with the theoretical truth tables, the correctness of the VHDL code was verified. The experiment also provided practical understanding of hardware description language concepts, digital logic design, and waveform analysis.
 
 ---
 
-## Discussion and Conclusion
+## Conclusion
 
-This lab demonstrated the implementation of seven fundamental logic gates in VHDL using the Dataflow modeling style. A single combined testbench was used to instantiate all gates simultaneously and apply all input combinations efficiently. The GTKWave waveform confirmed that each gate produced the correct output for every input combination, fully matching the expected truth table. This lab reinforced the understanding of concurrent signal assignments in VHDL and established a practical workflow for multi-component simulation that will be applied in subsequent labs.
+The experiment was successfully completed by designing and simulating basic logic gates using VHDL. The outputs obtained from the simulations were verified with the expected truth tables and found to be correct. The use of GTKWave made it easier to visualize and analyze the digital waveforms. This lab helped in understanding the implementation of combinational logic circuits using VHDL and improved familiarity with simulation tools used in digital system design.
